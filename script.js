@@ -124,7 +124,7 @@ function nextCard() {
   // Deck empty?
   if (unusedQuestions.length === 0) {
 
-  questionText.innerText = "Fim ♥\n (Mas só do jogo)";
+  questionText.innerText = "O jogo acabou \n (Mas a gente só começou)\n ♥";
 
   card.classList.add("flipped");
 
