@@ -65,7 +65,7 @@ body {
   background: #60152C;
   color: #F7E5D7;
   white-space: pre-line;
-  font-size: 1.3rem;
+  font-size: 1rem;
 
   .card-back {
   transform: rotateY(180deg) translateY(-8px);
