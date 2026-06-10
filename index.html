@@ -1,33 +1,45 @@
-<!-- 1. Google Fonts preconnect and font links -->
+<!DOCTYPE html>
+<html>
+<head>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://googleapis.com" rel="stylesheet">
 
-<div class="container">
+  <link rel="stylesheet" href="style.css">
 
-  <div class="card" id="card">
-        
-    <div class="card-face card-front">
-      ❤
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="card" id="card">
+
+      <div class="card-face card-front">
+        ❤
+      </div>
+
+      <div class="card-face card-back" id="question">
+        Quem começa? ♥
+      </div>
+
     </div>
 
-    <div class="card-face card-back" id="question">Quem começa? ♥</div>
+    <div class="buttons">
+
+      <button id="flipButton" onclick="flipCard()">
+        ❥ Virar Carta
+      </button>
+
+      <button id="nextButton" onclick="nextCard()">
+        ❥ Próxima
+      </button>
+
+    </div>
 
   </div>
 
-  <div class="buttons">
+  <script src="script.js"></script>
 
-  <button id="flipButton" onclick="flipCard()">
-    ❥ Virar Carta
-  </button>
-
-  <button id="nextButton" onclick="nextCard()">
-    ❥ Próxima
-  </button>
-
-</div>
-  
-  
-
-</div>
-
+</body>
+</html>
