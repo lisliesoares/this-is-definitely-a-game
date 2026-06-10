@@ -1,13 +1,13 @@
 let gameOver = false;
 
 const questions = [
-  "O que mais notou em mim assim que nos reencontramos?",
+  "O que chamou atenção em mim quando nos reencontramos?",
   "Cite um lugar inusitado pra rolar uma sacanagem",
   "Qual a sensação de comer cu de curioso?😝KKKKK",
   "O que acha que eu queria ser quando criança?",
   "Uma coisa que ama em si mesmo(a)",
   "Algo pelo qual seja grato(a)",
-  "Me conta um hiperfoco que durou muito e sumiu do nada",
+  "Me conte um hiperfoco que durou muito e sumiu do nada",
   "O que faria esse ano se dinheiro não fosse um problema?",
   "Você acha que a forma como se vê e é visto por outros é parecida?",
   "Em que tipo de estereótipo você me enquadraria?",
@@ -22,10 +22,10 @@ const questions = [
   "Cite as 3 coisas mais importantes num relacionamento",
   "Cite algo em que você se acha melhor que a maioria\n (Liberou a soberba 🤤)",
   "Como você se sente sobre iniciar o sexo?",
-  "O traço mais tóxico que consegue admitir em si mesmo(a) é..",
-  "Algo que te deixa animado pelo futuro",
+  "O traço mais tóxico que consegue admitir em si mesmo(a)",
+  "Algo que te deixa animado(a) pelo futuro",
   "Qual impressão inicial sobre mim acabou se provando o contrário?",
-  "Num momento difícil, como você gosta de ser acolhido?",
+  "Num momento difícil, como você gosta de ser acolhido(a)?",
   "Quando foi a última vez que você chorou e por que?",
   "Algo que admira sobre mim",
   "O que você gostaria que a gente fizesse mais na nossa relação?",
@@ -34,7 +34,7 @@ const questions = [
   "Como você me descreveria pra um estranho?",
   "Algo em que esteja trabalhando sobre si que os outros não veem",
   "Já te ajudei a entender algo sobre si mesmo(a)?",
-  "Algo que temos muito em comum",
+  "Algo que temos muito em comum é..",
   "O que já fiz e te magoou, mas você não me contou?",
   "Quando meu lanchinho favorito?",
   "Quando foi a última vez em que você precisou de ajuda e não pediu?",
@@ -53,14 +53,7 @@ const questions = [
   "Algo sobre mim que acha difícil de entender",
   "Que partes de si mesmo(a) você vê em mim? E o oposto?",
   "Que tipo de salgadinho eu seria?",
-  "Se a gente terminasse: o que você acha que levaria consigo(a)?"
-  
-  
-  
-  
-  
-  
-  
+  "Se a gente terminasse: o que você acha que levaria consigo?"
 ];
 
 let unusedQuestions = [...questions];
