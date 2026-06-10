@@ -13,6 +13,7 @@ body {
   );
 
   font-family: "Nunito", sans-serif;
+  fonte-weight: 700;
 }
 
 .container {
@@ -61,13 +62,10 @@ body {
 }
 
 .card-back {
-  .card-back {
-  border: 1px solid yellow;
-}
   background: #60152C;
   color: #F7E5D7;
   white-space: pre-line;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 
   transform: rotateY(180deg);
   
@@ -139,8 +137,8 @@ button {
   color: #F7E5D7;
 
   font-family: "Nunito", sans-serif;
-  font-size: 1rem;
-  font-weight: 600;
+  font-size: 1.3rem;
+  font-weight: 700;
 
   cursor: pointer;
 
