@@ -67,7 +67,9 @@ body {
   white-space: pre-line;
   font-size: 1.3rem;
 
-  transform: rotateY(180deg);
+  .card-back {
+  transform: rotateY(180deg) translateY(-8px);
+}
   
 }
 
