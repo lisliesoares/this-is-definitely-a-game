@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(
+    to bottom,
+    #A83453,
+    #8B1E3F
+  );
+
+  font-family: "Stylish", serif;
+}
+
+.container {
+  text-align: center;
+}
+
+.card {
+  width: 300px;
+  height: 200px;
+  position: relative;
+
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
+
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.card.flipped {
+  transform: rotateY(180deg);
+}
+
+.card-face {
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-sizing: border-box;
+  padding: 20px;
+
+  backface-visibility: hidden;
+}
+
+.card-front {
+  background: #F7E5D7;
+
+  color: #AB264E;
+  font-size: 6rem;
+}
+
+.card-back {
+  background: #60152C;
+  color: #F7E5D7;
+  white-space: pre-line;
+  font-size: 1.3rem;
+
+  transform: rotateY(180deg);
+  
+}
+
+/* Heartbeat */
+
+.card-front.animate {
+  animation: pulse 0.6s ease;
+}
+
+@keyframes pulse {
+
+  0% {
+    transform: scale(1);
+  }
+
+  30% {
+    transform: scale(1.08);
+  }
+
+  50% {
+    transform: scale(0.96);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Wrong Action Shake */
+
+.card.shake {
+  animation: shake 0.4s ease;
+}
+
+@keyframes shake {
+
+  0%, 100% {
+    transform: translateX(0) rotateY(180deg);
+  }
+
+  25% {
+    transform: translateX(-8px) rotateY(180deg);
+  }
+
+  75% {
+    transform: translateX(8px) rotateY(180deg);
+  }
+}
+
+/* Buttons */
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+button {
+  min-width: 130px;
+
+  padding: 12px 18px;
+
+  border: none;
+  border-radius: 12px;
+
+  background: #801D39;
+  color: #F7E5D7;
+
+  font-family: "Stylish", serif;
+  font-size: 1rem;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+button:active {
+  transform: scale(0.96);
+}
