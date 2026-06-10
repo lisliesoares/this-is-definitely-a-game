@@ -12,7 +12,8 @@ body {
     #8B1E3F
   );
 
-  font-family: "Stylish", serif;
+   font-family: "Nunito", sans-serif;
+   font-weight: 800;
 }
 
 .container {
@@ -134,9 +135,9 @@ button {
   background: #801D39;
   color: #F7E5D7;
 
-  font-family: "Stylish", serif;
+  font-family: "Nunito", sans-serif;
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 800;
 
   cursor: pointer;
 
